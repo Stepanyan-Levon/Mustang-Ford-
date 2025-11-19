@@ -57,6 +57,8 @@
 }
 .company{
   width: 100%;
+  display: flex;
+  align-items: center;
   p{
     font-size: 16px;
     color: white;
@@ -220,4 +222,10 @@ img{
     height: 339px;
     width: auto;
   }
+}
+.company-p{
+  width: 55%;
+}
+.company-img{
+  width: 40%;
 }
