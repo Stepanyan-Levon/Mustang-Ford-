@@ -10,7 +10,7 @@
     height: 230px;
   }
   .mustang-car{
-    margin: -183px auto 0px auto;
+    transform: translateY(-160px);
     position: relative;
   }
   h4{
@@ -215,7 +215,7 @@ img{
   .img3{
     width: 606px;
     height: 351px;
-    margin: -25px 0px 0px -60px;
+    transform: translate(-45px, -35px);
 
   }
   img{

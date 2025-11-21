@@ -12,7 +12,7 @@
   height: 230px;
 }
 .mid .mustang-car {
-  margin: -183px auto 0px auto;
+  transform: translateY(-160px);
   position: relative;
 }
 .mid h4 {
@@ -230,7 +230,7 @@
 .plater-info2 .img3 {
   width: 606px;
   height: 351px;
-  margin: -25px 0px 0px -60px;
+  transform: translate(-45px, -35px);
 }
 .plater-info2 img {
   height: 339px;
@@ -294,16 +294,15 @@
     padding: 0 55px;
   }
   .mid .mustang-car {
-    margin: -183px auto 0px auto;
     position: relative;
     width: 800px;
   }
 }
 @media only screen and (max-width: 950px) {
   .mustang-car {
-    margin: -110px auto 0px auto;
     position: relative;
-    width: 800px;
+    transform: translateY(-40px);
+    width: 100%;
   }
   .mid .mustang-img {
     height: 170px;
@@ -349,15 +348,29 @@
     width: 590px;
   }
 }
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 700px) {
+  .mustang-car {
+    position: relative;
+    transform: translateY(-40px);
+    width: 100%;
+  }
   .ford-img {
-    width: 660px;
-    height: 356px;
+    width: 75%;
     object-fit: contain;
   }
   .recreations img {
-    width: 540px;
-    height: 150px;
+    height: 200px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .ford-img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .recreations img {
+    height: 200px;
+    width: 100%;
   }
 }
 
